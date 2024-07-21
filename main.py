@@ -17,3 +17,5 @@ try:
         json.dump(data, f)
 except Exception as e:
     print(f"Błąd zapisu do pliku: {e}")
+
+#test
