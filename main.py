@@ -18,4 +18,4 @@ try:
 except Exception as e:
     print(f"Błąd zapisu do pliku: {e}")
 
-#test3
+#test33
