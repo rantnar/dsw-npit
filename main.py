@@ -1,4 +1,5 @@
 import argparse
+import json
 
 parser = argparse.ArgumentParser(description='Program do konwersji danych.')
 parser.add_argument('pathFile1', type=str, help='Ścieżka do pliku źródłowego')
