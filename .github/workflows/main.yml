@@ -40,8 +40,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Ustawienie tokenu uwierzytelniającego
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: ${{ github.ref }}.replace('refs/heads/', '')
+        release_name: Release ${{ github.ref }}.replace('refs/heads/', '')
         draft: false
         prerelease: false
 
